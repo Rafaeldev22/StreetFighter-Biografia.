@@ -116,6 +116,50 @@ h2{
     border-radius: 10px;
 }
 
+@media screen and (max-width: 550px){
+
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 350% 100%;
+    background-position-x: -590px;
+  }
+
+
+  .titulo{
+    position: absolute;
+    left: 7vw;
+    top: 25vh;
+    width: 350px;
+    line-height: 35px ;
+  }
+
+  .biografia{
+    position: absolute;
+    top: 39vh;
+    left: 8vw;
+    max-width: 84vw;
+
+  }
+
+  .logo{
+    position: absolute;
+    top: 8vh;
+  }
+
+  .menu{
+    margin-top: 6vh;
+    margin-left: 55vw;
+  }
+
+  .menu a {
+    opacity: 9;
+    color: #fff;
+    background: red;
+  }
+}
+
 
 
 
