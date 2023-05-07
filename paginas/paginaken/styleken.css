@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    height: 100vh;
+    background: url('/img/back-ken.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    font-size: 25px;
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    background: transparent;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    color: white;
+}
+
+.menu a{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 8px;
+    background: rgb(46, 46, 199);
+    opacity: .6;
+
+}
+
+a:hover{
+    background: white;
+    color: rgb(46, 46, 199) ;
+    border: 2px solid rgb(46, 46, 199);
+    transition: .3s ;
+}
+
+
+
+.titulo{
+    border: 3px solid  rgb(255, 187, 0);
+    position: absolute;
+    padding: 15px;
+    padding-right: 30px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 150px;
+    left: 120px;
+    z-index: -1;
+}
+
+p{
+    color:white;
+    font-size: 25px;
+    font-family: HIRO MISAKE;
+}
+
+.biografia{
+    position: absolute;
+    padding: 15px;
+    top: 250px;
+    left: 120px;
+    padding: 20px;
+    padding-right: 10px;
+    border-radius: 7px;
+    border: 2px solid rgb(255, 187, 0);
+    background-color: rgba(0, 0, 0, 0.8);
+    max-height: 55%;
+    max-width: 40%;
+    overflow-y: scroll;
+
+}
+h2{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.biografia p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-right: 30px;
+    line-height: 150%;
+}
+
+::-webkit-scrollbar{
+    background-color: black;
+    width: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding-right: 20px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 187, 0);
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1024px){
+
+    .biografia{
+        border: 2px solid red;
+        max-width: 45vw;
+    }
+}
+
+@media screen and (max-width: 550px){
+
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 320vw 100vh;
+    background-position-x: -590px;
+  }
+
+
+  .titulo{
+    position: absolute;
+    left: 7vw;
+    top: 25vh;
+    width: 85vw;
+    line-height: 35px ;
+  }
+
+  .biografia{
+    position: absolute;
+    top: 39vh;
+    left: 8vw;
+    max-width: 84vw;
+
+  }
+
+  .logo{
+    position: absolute;
+    top: 9vh;
+    font-size: 40px;
+  }
+
+  .menu{
+    position: absolute;
+    margin-top: 19vh;
+    padding: 20px;
+    margin-left: 55vw;
+  }
+
+  .menu a {
+    font-size: 27px;
+    opacity: 9;
+    color: #fff;
+    background: red;
+  }
+}
+
+
+@media screen and (max-width:375px){
+
+    header{
+
+        display: flex ;
+        flex-direction: column;
+    }
+
+    .menu{
+        position: absolute;
+        width: 95vw;
+        top: -4vh;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+    .titulo{
+        text-align: center;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .biografia{
+        border: 2px solid red;
+        max-width: 65%;
+    }
+
+    .titulo{
+        border: 2px solid red;
+        margin-left: 3vw;
+    }
+
+}
+
+
+
