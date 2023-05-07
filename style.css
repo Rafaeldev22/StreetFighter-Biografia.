@@ -273,6 +273,13 @@ span:hover {
 
 }
 
+@media screen and (max-width: 375px){
+
+    .sliders{
+        height: 63vh;
+    }
+
+}
 
 
 @media screen and (max-width: 425px){
@@ -282,8 +289,8 @@ span:hover {
     }
 
     .sliders{
-        max-height: 58vh;
-        overflow-y: hidden;
+        height: 65vh;
+        overflow-y:hidden;
     }
 
     #menu a{
@@ -410,7 +417,7 @@ span:hover {
 
     .sliders{
         margin-top: 18vh;
-        max-height: 81vh;
+        height: 67vh;
         max-width: 98vw;
     }
 
