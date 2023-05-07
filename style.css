@@ -221,6 +221,7 @@ span:hover {
     padding-bottom: 0.1em;
     line-height: 150%;
     overflow-y: scroll;
+
 }
 
 ::-webkit-scrollbar {
@@ -237,6 +238,63 @@ span:hover {
 .sliders::-webkit-scrollbar {
     display: none;
 }
+
+
+@media screen and (max-width: 320px){
+
+    .logo{
+        position: absolute;
+        top: .5vh;
+        width: 50vw;
+    }
+
+    #menu-mobile{
+        display: flex;
+        margin-left: 25vw;
+        margin-top: 1vh;
+    }
+
+    #menu-mobile a{
+        display: none;
+    }
+
+    #menu-mobile.active #menu a{
+        display: block;
+        margin-top: 6vh;
+    }
+
+    span{
+        margin-top: 8vh;
+    }
+
+    #menu-mobile.active span{
+        margin-top: 3vh;
+    }
+
+}
+
+
+
+@media screen and (max-width: 425px){
+
+    .logo{
+        height: 13vh;
+    }
+
+    .sliders{
+        max-height: 58vh;
+        overflow-y: hidden;
+    }
+
+    #menu a{
+        display: none;
+    }
+
+    #menu-mobile.active #menu a{
+        display: block;
+    }
+}
+
 
 @media screen and (max-width: 550px) {
 
@@ -276,12 +334,6 @@ span:hover {
     .arrow-left {
         display: none;
     }
-
-
-
-
-
-
 
 
     .menu-cabecario {
@@ -344,9 +396,39 @@ span:hover {
         top: -7px;
     }
 
+}
 
+@media screen and (max-width: 768px){
 
+    .menu-cabecario{
+        margin-left: 35vw;
+    }
 
+    .logo{
+        width: 15vw;
+    }
+
+    .sliders{
+        margin-top: 18vh;
+        max-height: 81vh;
+        max-width: 98vw;
+    }
+
+    #card{
+        height: 81vh;
+    }
+
+}
+
+@media screen and (max-width: 820px){
+
+    .menu-cabecario {
+        position: absolute;
+        left: 65vw;
+        padding: 2px;
+        margin: 5vw;
+    }
 
 
 }
+

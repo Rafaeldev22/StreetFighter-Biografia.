@@ -122,7 +122,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-size: 350% 100%;
+    background-size: 320vw 100vh;
     background-position-x: -590px;
   }
 
@@ -131,7 +131,7 @@ h2{
     position: absolute;
     left: 7vw;
     top: 25vh;
-    width: 350px;
+    width: 85vw;
     line-height: 35px ;
   }
 
@@ -145,20 +145,26 @@ h2{
 
   .logo{
     position: absolute;
-    top: 8vh;
+    top: 9vh;
+    font-size: 40px;
   }
 
   .menu{
-    margin-top: 6vh;
+    position: absolute;
+    margin-top: 19vh;
+    padding: 20px;
     margin-left: 55vw;
   }
 
   .menu a {
+    font-size: 27px;
     opacity: 9;
     color: #fff;
     background: red;
   }
 }
+
+
 
 
 
