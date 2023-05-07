@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-body{
+body {
     display: flex;
     height: 100vh;
     background: url('/img/back-ken.png') no-repeat;
@@ -13,15 +13,15 @@ body{
     background-position: center;
 }
 
-.logo{
+.logo {
     font-size: 25px;
-    color:white;
+    color: white;
     text-decoration: none;
     font-weight: 600;
 }
 
 
-header{
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -34,7 +34,7 @@ header{
     color: white;
 }
 
-.menu a{
+.menu a {
     cursor: pointer;
     text-decoration: none;
     font-weight: 700;
@@ -48,17 +48,17 @@ header{
 
 }
 
-a:hover{
+a:hover {
     background: white;
-    color: rgb(46, 46, 199) ;
+    color: rgb(46, 46, 199);
     border: 2px solid rgb(46, 46, 199);
-    transition: .3s ;
+    transition: .3s;
 }
 
 
 
-.titulo{
-    border: 3px solid  rgb(255, 187, 0);
+.titulo {
+    border: 3px solid rgb(255, 187, 0);
     position: absolute;
     padding: 15px;
     padding-right: 30px;
@@ -69,13 +69,13 @@ a:hover{
     z-index: -1;
 }
 
-p{
-    color:white;
+p {
+    color: white;
     font-size: 25px;
     font-family: HIRO MISAKE;
 }
 
-.biografia{
+.biografia {
     position: absolute;
     padding: 15px;
     top: 250px;
@@ -90,7 +90,8 @@ p{
     overflow-y: scroll;
 
 }
-h2{
+
+h2 {
     color: white;
     margin-bottom: 20px;
 }
@@ -102,7 +103,7 @@ h2{
     line-height: 150%;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     background-color: black;
     width: 10px;
     border: 1px solid white;
@@ -110,13 +111,15 @@ h2{
     padding-right: 20px;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background-color: rgb(255, 187, 0);
     border: 2px solid black;
     border-radius: 10px;
 }
 
-@media screen and (max-width: 1024px){
+
+
+/* @media screen and (max-width: 1024px){
 
     .biografia{
         border: 2px solid red;
@@ -210,7 +213,136 @@ h2{
         margin-left: 3vw;
     }
 
+} */
+
+@media screen and (max-width: 550px) {
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: 320vw 100vh;
+        background-position-x: -590px;
+    }
+
+
+    .titulo {
+        position: absolute;
+        left: 7vw;
+        top: 25vh;
+        width: 85vw;
+        line-height: 35px;
+    }
+
+    .biografia {
+        position: absolute;
+        top: 39vh;
+        left: 8vw;
+        max-width: 84vw;
+
+    }
+
+    .logo {
+        position: absolute;
+        top: 9vh;
+        font-size: 40px;
+    }
+
+    .menu {
+        position: absolute;
+        margin-top: 19vh;
+        padding: 20px;
+        margin-left: 55vw;
+    }
+
+    .menu a {
+        font-size: 27px;
+        opacity: 9;
+        color: #fff;
+        background: red;
+    }
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px){
 
+    .titulo{
+        margin-top: 2rem;
+        text-align: center;
+        padding: 10px;
+    }
 
+    .menu a{
+        margin-top: 1rem;
+        margin-left: -1.2rem ;
+        background: red;
+    }
+
+    .logo{
+        width: 10rem;
+        margin-top: -3rem;
+        padding-left: 1.1rem;
+        text-align: center;
+
+    }
+
+    .biografia{
+        margin-top: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .menu a {
+        position: absolute;
+        left: 6vw;
+        top: -1vh;
+    }
+
+    .logo {
+        position: absolute;
+        left: 13vw;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .biografia {
+        max-width: 85%;
+    }
+
+    .menu {
+        margin-left: 21vw;
+        margin-top: 35vh;
+    }
+
+    .menu a {
+        background: red;
+    }
+
+    .logo {
+        margin-left: 7vw;
+    }
+
+    .titulo {
+        margin-left: .7vw;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .menu a {
+        background: red;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .menu a {
+        background: red;
+    }
+
+}
