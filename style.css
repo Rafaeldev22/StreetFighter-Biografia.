@@ -271,12 +271,30 @@ span:hover {
         margin-top: 3vh;
     }
 
+    .conteudo{
+        height: 20vh;
+    }
+
+    #card{
+
+        max-height: 600px;
+    }
+
 }
 
 @media screen and (max-width: 375px){
 
     .sliders{
         height: 63vh;
+    }
+
+    .conteudo{
+        height: 20vh;
+    }
+
+    #card{
+
+        max-height: 600px;
     }
 
 }
@@ -299,6 +317,14 @@ span:hover {
 
     #menu-mobile.active #menu a{
         display: block;
+    }
+
+    .conteudo{
+        height: 20vh;
+    }
+
+    #card{
+        max-height: 600px;
     }
 }
 
@@ -421,8 +447,13 @@ span:hover {
         max-width: 98vw;
     }
 
+    .conteudo{
+        height: 20vh;
+    }
+
     #card{
-        height: 81vh;
+
+        max-height: 600px;
     }
 
 }
