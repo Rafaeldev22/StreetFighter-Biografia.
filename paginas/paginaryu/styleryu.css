@@ -116,6 +116,14 @@ h2{
     border-radius: 10px;
 }
 
+@media screen and (max-width: 1024px){
+
+    .biografia{
+        border: 2px solid red;
+        max-width: 45vw;
+    }
+}
+
 @media screen and (max-width: 550px){
 
   body{
@@ -165,8 +173,44 @@ h2{
 }
 
 
+@media screen and (max-width:375px){
 
+    header{
 
+        display: flex ;
+        flex-direction: column;
+    }
+
+    .menu{
+        position: absolute;
+        width: 95vw;
+        top: -4vh;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+    .titulo{
+        text-align: center;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .biografia{
+        border: 2px solid red;
+        max-width: 65%;
+    }
+
+    .titulo{
+        border: 2px solid red;
+        margin-left: 3vw;
+    }
+
+}
 
 
 

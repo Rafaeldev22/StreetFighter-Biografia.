@@ -116,7 +116,112 @@ h2{
     border-radius: 10px;
 }
 
+@media screen and (max-width: 1024px){
 
+    .biografia{
+        max-width: 45vw;
+    }
+}
+
+@media screen and (max-width: 550px){
+
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 320vw 100vh;
+    background-position-x: -590px;
+  }
+
+
+  .titulo{
+    position: absolute;
+    left: 7vw;
+    top: 25vh;
+    width: 85vw;
+    line-height: 35px ;
+  }
+
+  .biografia{
+    position: absolute;
+    top: 39vh;
+    left: 8vw;
+    max-width: 84vw;
+
+  }
+
+  .logo{
+    position: absolute;
+    top: 9vh;
+    font-size: 40px;
+  }
+
+  .menu{
+    position: absolute;
+    margin-top: 19vh;
+    padding: 20px;
+    margin-left: 55vw;
+  }
+
+  .menu a {
+    font-size: 27px;
+    opacity: 9;
+    color: #fff;
+    background: red;
+  }
+}
+
+
+@media screen and (max-width:375px){
+
+    header{
+
+        display: flex ;
+        flex-direction: column;
+    }
+
+    .menu{
+        position: absolute;
+        width: 95vw;
+        top: -4vh;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+
+    .titulo{
+        text-align: center;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+    .biografia{
+        margin-left: 2vw;
+        max-width: 65%;
+    }
+
+    .titulo{
+        margin-left: -1vw;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+
+    .menu{
+        margin-left: 20vw;
+        margin-top: 35vh;
+    }
+
+    .biografia{
+        max-width: 77vw;
+    }
+
+}
 
 
 
