@@ -64,8 +64,8 @@ a:hover {
     padding-right: 30px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.5);
-    top: 150px;
-    left: 928px;
+    top: 22vh;
+    left: 68vw;
     z-index: -1;
 }
 
@@ -78,8 +78,8 @@ p {
 .biografia {
     position: absolute;
     padding: 15px;
-    top: 250px;
-    left: 750px;
+    top: 36vh;
+    left: 56vw;
     padding: 20px;
     padding-right: 10px;
     border-radius: 7px;
@@ -214,7 +214,7 @@ h2 {
     }
 
 } */
-
+/*
 @media screen and (max-width: 550px) {
 
     body {
