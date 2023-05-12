@@ -115,7 +115,7 @@ h2{
     border: 2px solid black;
     border-radius: 10px;
 }
-
+/*
 @media screen and (max-width: 1024px){
 
     .biografia{
@@ -151,13 +151,23 @@ h2{
     }
 
 }
-
+*/
 @media screen and (min-width: 320px) and (max-width: 480px){
 
+
+    body{
+        background-size: 113rem;
+        left: -5rem;
+    }
+
     .titulo{
-        margin-top: 2rem;
+        /* position: absolute; */
+        border: 2px solid red;
+        margin-top: 10rem;
+        margin-left: -6rem;
         text-align: center;
-        padding: 10px;
+        width: 20rem;
+        padding: 10px 20px;
     }
 
     .menu a{
@@ -175,11 +185,17 @@ h2{
     }
 
     .biografia{
-        margin-top: 2rem;
+        border:2px solid red;
+        position: absolute;
+        max-width: 35rem;
+        top: 25rem;
+        right: 1rem;
+        left: 1rem;
+        padding: 1rem;
     }
 
 }
-
+/*
 @media screen and (max-width: 425px){
 
     .menu a{
@@ -282,5 +298,4 @@ h2{
         background: red;
     }
 
-}
-
+}*/
