@@ -120,230 +120,52 @@ h2 {
 
 
 
-/* @media screen and (max-width: 1024px){
+@media (min-width: 320px) and (max-width: 1000px){
 
-    .biografia{
-        border: 2px solid red;
-        max-width: 45vw;
-    }
-}
-
-@media screen and (max-width: 550px){
-
-  body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: 320vw 100vh;
-    background-position-x: -590px;
-  }
-
-
-  .titulo{
-    position: absolute;
-    left: 7vw;
-    top: 25vh;
-    width: 85vw;
-    line-height: 35px ;
-  }
-
-  .biografia{
-    position: absolute;
-    top: 39vh;
-    left: 8vw;
-    max-width: 84vw;
-
-  }
-
-  .logo{
-    position: absolute;
-    top: 9vh;
-    font-size: 40px;
-  }
-
-  .menu{
-    position: absolute;
-    margin-top: 19vh;
-    padding: 20px;
-    margin-left: 55vw;
-  }
-
-  .menu a {
-    font-size: 27px;
-    opacity: 9;
-    color: #fff;
-    background: red;
-  }
-}
-
-
-@media screen and (max-width:375px){
-
-    header{
-
-        display: flex ;
-        flex-direction: column;
-    }
-
-    .menu{
-        position: absolute;
-        width: 95vw;
-        top: -4vh;
-    }
-
-}
-
-@media screen and (max-width: 320px){
-
-    .titulo{
-        text-align: center;
-        padding: 10px;
-    }
-
-}
-
-@media screen and (max-width: 768px){
-
-    .biografia{
-        border: 2px solid red;
-        max-width: 65%;
-    }
-
-    .titulo{
-        border: 2px solid red;
-        margin-left: 3vw;
-    }
-
-} */
-/*
-@media screen and (max-width: 550px) {
-
-    body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-size: 320vw 100vh;
-        background-position-x: -590px;
-    }
-
-
-    .titulo {
-        position: absolute;
-        left: 7vw;
-        top: 25vh;
-        width: 85vw;
-        line-height: 35px;
-    }
-
-    .biografia {
-        position: absolute;
-        top: 39vh;
-        left: 8vw;
-        max-width: 84vw;
-
-    }
-
-    .logo {
-        position: absolute;
-        top: 9vh;
-        font-size: 40px;
-    }
-
-    .menu {
-        position: absolute;
-        margin-top: 19vh;
-        padding: 20px;
-        margin-left: 55vw;
-    }
-
-    .menu a {
-        font-size: 27px;
-        opacity: 9;
-        color: #fff;
-        background: red;
-    }
-}
-
-@media screen and (min-width: 320px) and (max-width: 480px){
-
-    .titulo{
-        margin-top: 2rem;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .menu a{
-        margin-top: 1rem;
-        margin-left: -1.2rem ;
-        background: red;
+    body{
+        /* background-size: cover; */
+        background-position: 20%;
     }
 
     .logo{
-        width: 10rem;
-        margin-top: -3rem;
-        padding-left: 1.1rem;
-        text-align: center;
+        /* border: 2px solid red; */
+        color: rgb(0, 0, 0);
+    }
 
+    .menu{
+        margin-top: 5px;
+    }
+
+    .menu a{
+        font-size: 15px;
+    }
+
+    .titulo{
+        margin-top: -20px;
+        margin-left: -85px;
+        margin-right: 20px;
+    }
+
+    .titulo p{
+        font-size: 17px;
     }
 
     .biografia{
-        margin-top: 2rem;
+        margin-left: -95px;
+        max-width: 400px;
+        margin-top: -18px;
+        margin-right: 20px;
     }
-
 }
 
-@media screen and (max-width: 425px) {
+@media ( min-width: 1024px ){
 
-    .menu a {
-        position: absolute;
-        left: 6vw;
-        top: -1vh;
+    .titulo{
+        margin-right: 15px;
     }
 
-    .logo {
-        position: absolute;
-        left: 13vw;
+    .biografia{
+        margin-right: 15px;
+        max-width: 700px;
     }
-
-}
-
-@media screen and (max-width: 768px) {
-
-    .biografia {
-        max-width: 85%;
-    }
-
-    .menu {
-        margin-left: 21vw;
-        margin-top: 35vh;
-    }
-
-    .menu a {
-        background: red;
-    }
-
-    .logo {
-        margin-left: 7vw;
-    }
-
-    .titulo {
-        margin-left: .7vw;
-    }
-
-}
-
-@media screen and (max-width: 1024px) {
-
-    .menu a {
-        background: red;
-    }
-
-}
-
-@media screen and (min-width: 1440px) {
-
-    .menu a {
-        background: red;
-    }
-
 }

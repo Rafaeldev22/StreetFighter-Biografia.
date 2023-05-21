@@ -117,111 +117,49 @@ h2{
     border-radius: 10px;
 }
 
-@media screen and (max-width: 1024px){
+@media (min-width: 320px) and (max-width: 1000px){
 
-    .biografia{
-        max-width: 45vw;
+    body{
+        /* background-size: cover; */
+        background-position: 70%;
     }
-}
 
-@media screen and (max-width: 550px){
-
-  body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-size: 320vw 100vh;
-    background-position-x: -590px;
-  }
-
-
-  .titulo{
-    position: absolute;
-    left: 7vw;
-    top: 25vh;
-    width: 85vw;
-    line-height: 35px ;
-  }
-
-  .biografia{
-    position: absolute;
-    top: 39vh;
-    left: 8vw;
-    max-width: 84vw;
-
-  }
-
-  .logo{
-    position: absolute;
-    top: 9vh;
-    font-size: 40px;
-  }
-
-  .menu{
-    position: absolute;
-    margin-top: 19vh;
-    padding: 20px;
-    margin-left: 55vw;
-  }
-
-  .menu a {
-    font-size: 27px;
-    opacity: 9;
-    color: #fff;
-    background: red;
-  }
-}
-
-
-@media screen and (max-width:375px){
-
-    header{
-
-        display: flex ;
-        flex-direction: column;
+    .logo{
+        /* border: 2px solid red; */
+        color: #fff;
     }
 
     .menu{
-        position: absolute;
-        width: 95vw;
-        top: -4vh;
+        margin-top: 5px;
     }
 
-}
-
-@media screen and (max-width: 320px){
-
-    .titulo{
-        text-align: center;
-        padding: 10px;
-    }
-
-}
-
-@media screen and (max-width: 768px){
-
-    .biografia{
-        margin-left: 2vw;
-        max-width: 65%;
+    .menu a{
+        font-size: 15px;
     }
 
     .titulo{
-        margin-left: -1vw;
+        margin-top: -20px;
+        margin-left: -85px;
+        margin-right: 20px;
     }
 
-}
-
-@media screen and (max-width: 425px){
-
-    .menu{
-        margin-left: 20vw;
-        margin-top: 35vh;
+    .titulo p{
+        font-size: 17px;
     }
 
     .biografia{
-        max-width: 77vw;
+        margin-left: -95px;
+        max-width: 400px;
+        margin-top: -18px;
+        margin-right: 20px;
     }
+}
 
+@media ( min-width: 1024px ){
+
+    .biografia{
+        max-width: 700px;
+    }
 }
 
 

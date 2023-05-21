@@ -466,6 +466,13 @@ span:hover {
 
 }
 
+@media ( min-width: 1000px ){
+
+    .arrow-left, .arrow-right{
+        display: block;
+    }
+}
+
 @media (min-width: 1664px) {
 
     .sliders {
