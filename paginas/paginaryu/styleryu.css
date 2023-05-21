@@ -120,7 +120,7 @@ h2{
 @media (min-width: 320px) and (max-width: 1000px){
 
     body{
-        /* background-size: cover; */
+        background-size: cover;
         background-position: 70%;
     }
 
