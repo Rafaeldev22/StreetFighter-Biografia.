@@ -120,7 +120,7 @@ h2{
 @media (min-width: 320px) and (max-width: 500px){
 
     body{
-        background-size: 1350px;
+        background-size: cover;
         margin-left: -200px;
     }
 
@@ -138,19 +138,20 @@ h2{
     }
 
     .titulo{
-        margin-top: -5px;
-        margin-left: -68px;
+        margin-top: -20px;
+        margin-left: -85px;
         margin-right: 20px;
     }
 
     .titulo p{
-        font-size: 22px;
+        font-size: 17px;
     }
 
     .biografia{
-        margin-left: -65px;
+        margin-left: -95px;
         max-width: 400px;
         margin-top: -18px;
+        margin-right: 20px;
     }
 }
 
