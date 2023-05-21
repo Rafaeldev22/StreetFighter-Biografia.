@@ -10,7 +10,7 @@ body {
     display: flex;
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 35%, rgba(163,15,15,1) 100%) no-repeat;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 35%, rgba(163, 15, 15, 1) 100%) no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -141,8 +141,6 @@ span:hover {
     transition: .5s;
 }
 
-
-
 .fa-chevron-left {
     position: absolute;
     top: 50%;
@@ -215,7 +213,7 @@ span:hover {
 
 .conteudo {
     font-weight: 470;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     padding-top: .1rem;
     padding-right: 8px;
     padding-bottom: 0.1em;
@@ -240,49 +238,152 @@ span:hover {
 }
 
 
-@media screen and (max-width: 320px){
+@media (max-width: 500px){
 
-    .logo{
+    .conteudo{
+        display: none;
+    }
+}
+
+
+@media (min-width: 500px)and (max-width: 1024px) {
+
+    .logo {
         position: absolute;
         top: .5vh;
         width: 50vw;
     }
 
-    #menu-mobile{
+    #menu-mobile {
         display: flex;
         margin-left: 25vw;
         margin-top: 1vh;
     }
 
-    #menu-mobile a{
+    #menu-mobile a {
         display: none;
     }
 
-    #menu-mobile.active #menu a{
+    #menu-mobile.active #menu a {
         display: block;
         margin-top: 6vh;
     }
 
-    span{
-        margin-top: 8vh;
-    }
-
-    #menu-mobile.active span{
-        margin-top: 3vh;
-    }
-
-    .conteudo{
+    .conteudo {
         height: 20vh;
     }
 
-    #card{
+    .arrow-right {
+        display: none;
+    }
+
+    .arrow-left {
+        display: none;
+    }
+
+    #card {
 
         max-height: 600px;
     }
 
+    .sliders {
+        /* border: 2px solid red; */
+        position: absolute;
+        height: 70vh;
+        max-width: 98vw;
+        top: 10px;
+    }
+
+    .menu-cabecario {
+        display: none;
+    }
+
+    #menu-mobile{
+        margin-left: 12rem;
+    }
+
+    #menu-mobile a {
+        /* border: 2px solid red; */
+        text-decoration: none;
+        margin-top: .3rem;
+        margin-left: 15px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    #btn-menu {
+        /* border: 2px solid red; */
+        margin-top: 1.4rem;
+        margin-left: -1rem;
+        display: block;
+        opacity: 9;
+    }
+
+    #menu {
+        display: flex;
+        opacity: 0;
+        transition: .6s;
+    }
+
+    #menu-mobile.active #menu {
+        display: flex;
+        opacity: 9;
+    }
+
+    .hamburger {
+        position: absolute;
+        border-top: 2px solid white;
+        border-radius: 0px;
+        width: 20px;
+        top: 2.4rem;
+    }
+
+    .hamburger::after,
+    .hamburger::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: white;
+        margin-top: 5px;
+        transition: .4s;
+        position: relative;
+    }
+
+    #menu-mobile.active .hamburger {
+        border-top: transparent;
+    }
+
+    #menu-mobile.active .hamburger::before {
+        transform: rotate(135deg);
+    }
+
+    #menu-mobile.active .hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
+
+    }
+
+    .logo {
+        display: block;
+        width: 30vw;
+        margin-top: 4vh;
+        margin-left: -5vw;
+    }
+
+
 }
 
-@media screen and (max-width: 375px){
+@media (min-width: 1664px) {
+
+    .sliders {
+        border: 2px solid red;
+        max-height: 62vh;
+    }
+
+}
+
+/* @media screen and (max-width: 375px){
 
     .sliders{
         height: 63vh;
@@ -297,10 +398,10 @@ span:hover {
         max-height: 600px;
     }
 
-}
+} */
 
 
-@media screen and (max-width: 425px){
+/* @media screen and (max-width: 425px){
 
     .logo{
         height: 13vh;
@@ -326,10 +427,10 @@ span:hover {
     #card{
         max-height: 600px;
     }
-}
+} */
 
 
-@media screen and (max-width: 550px) {
+/* @media screen and (max-width: 550px) {
 
     .logo {
         display: block;
@@ -429,9 +530,9 @@ span:hover {
         top: -7px;
     }
 
-}
+} */
 
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){
 
     .menu-cabecario{
         margin-left: 35vw;
@@ -456,9 +557,9 @@ span:hover {
         max-height: 600px;
     }
 
-}
+} */
 
-@media screen and (max-width: 820px){
+/* @media screen and (max-width: 820px){
 
     .menu-cabecario {
         position: absolute;
@@ -468,5 +569,6 @@ span:hover {
     }
 
 
-}
+} */
+
 
