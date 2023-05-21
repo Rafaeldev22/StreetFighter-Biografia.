@@ -120,8 +120,8 @@ h2{
 @media (min-width: 320px) and (max-width: 500px){
 
     body{
-        background-size: 1250px;
-        left: -5px;
+        background-size: 1350px;
+        margin-left: -200px;
     }
 
     .logo{
