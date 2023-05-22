@@ -160,6 +160,10 @@ h2 {
         margin-top: -18px;
         margin-right: 10px;
     }
+
+    .biografia p{
+        font-size: 17px;
+    }
 }
 
 @media (min-width: 1024px) {

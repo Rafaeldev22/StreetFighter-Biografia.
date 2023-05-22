@@ -277,13 +277,13 @@ span:hover {
 
     #menu-mobile.active #menu {
         display: flex;
-        opacity: 5;
-    }
-
-    #menu-mobile a.active #menu {
-        display: flex;
         opacity: 9;
     }
+
+    /* #menu-mobile a.active #menu {
+        display: flex;
+        opacity: 9;
+    } */
 
     .hamburger {
         position: absolute;
