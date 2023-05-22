@@ -123,8 +123,10 @@ h2 {
 @media (min-width: 320px) and (max-width: 1000px){
 
     body{
-        /* background-size: cover; */
+        background-size: cover;
+        background-repeat: no-repeat;
         background-position: 20%;
+        overflow-y: hidden;
     }
 
     .logo{
@@ -142,8 +144,8 @@ h2 {
 
     .titulo{
         margin-top: -20px;
-        margin-left: -85px;
-        margin-right: 20px;
+        margin-left: -130px;
+        margin-right: 10px;
     }
 
     .titulo p{
@@ -151,8 +153,8 @@ h2 {
     }
 
     .biografia{
-        margin-left: -95px;
-        max-width: 400px;
+        margin-left: -165px;
+        max-width: 600px;
         margin-top: -18px;
         margin-right: 20px;
     }

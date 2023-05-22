@@ -123,8 +123,10 @@ h2 {
 @media (min-width: 320px) and (max-width: 1000px){
 
     body{
-        /* background-size: cover; */
-        background-position: 70%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        overflow-y: hidden;
     }
 
     .logo{
